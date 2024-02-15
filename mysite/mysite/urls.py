@@ -23,4 +23,13 @@ urlpatterns = [
     path('save/',views.save),
     path('delete/',views.delete),
     path('update/',views.update),
+    path('create_posts/',views.create_post),
+    path('get_or_create_posts/',views.get_or_create_post),
+    path('bulk_create_posts/',views.bulk_create_post),
+    path('update_posts/',views.update_post),
+    path('update_or_create_posts/',views.update_or_create_post),
+    path('bulk_update_posts/',views.bulk_update_post),
+    path('get_posts/',views.get_post),
+    path('get_Q_filter_posts/',views.get_Q_filter_post),
+    path('get_lookup_posts/',views.get_lookup_post),
 ]
